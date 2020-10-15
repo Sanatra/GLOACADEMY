@@ -1,21 +1,27 @@
-alert('Привет');
-console.log('Привет еще раз)');
 
 
-let money;
+let money = (23253523);
+console.log(money);
+
+let income = '12378956';
 
 
-let income;
+let addExpenses = 'Интернет,Квартира,Коммунальные услуги';
+console.log(addExpenses.length);
+
+addExpenses = addExpenses.toLocaleLowerCase();
+console.log(addExpenses.split(', '));
 
 
-let addExpenses;
+let deposit = Boolean(5 === 5);
 
 
-let deposit;
+let mission = (2457658769);
 
 
-let mission;
+let period = (5);
+console.log('\tПериод равен:', period, 'месяцев\n', '\tЦель заработать:', mission, '$');
 
-
-let period;
+let budgetDay = ( 50000 / 30);
+console.log(budgetDay);
 
