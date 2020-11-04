@@ -1,27 +1,40 @@
+'use-strict';
+
+const findIdName = document.getElementById('start');
+console.log(findIdName);
+
+const findTagName = document.getElementsByClassName('btn_plus');
+console.log(findTagName);
+
+const findIdCheck = document.querySelector('#deposit-check');
+console.log(findIdCheck);
+
+const findAllDeposits = document.querySelectorAll('.additional_income-item');
+console.log(findAllDeposits);
 
 
-let money = (23253523);
-console.log(money);
+// RIGHT
+const rightAllFind = document.getElementsByClassName('result-total');
+console.log(rightAllFind);
 
-let income = '12378956';
+let leftFind = document.querySelector('.period-select');
+console.log(leftFind);
+leftFind = document.querySelector('[type="range"]');
+console.log(leftFind);
 
+const targetFind = document.querySelector('.target-amount');
+console.log(targetFind);
 
-let addExpenses = 'Интернет,Квартира,Коммунальные услуги';
-console.log(addExpenses.length);
+const salaryFind = document.querySelector('.salary-amount');
+console.log(salaryFind);
 
-addExpenses = addExpenses.toLocaleLowerCase();
-console.log(addExpenses.split(', '));
-
-
-let deposit = Boolean(5 === 5);
-
-
-let mission = (2457658769);
-
-
-let period = (5);
-console.log('\tПериод равен:', period, 'месяцев\n', '\tЦель заработать:', mission, '$');
-
-let budgetDay = ( 50000 / 30);
-console.log(budgetDay);
-
+const additional = document.querySelector('.additional_income-item');
+console.log(additional);
+const additionalTwo = document.querySelector('.additional_income-item');
+console.log(additionalTwo);
+const expenses = document.querySelector('.expenses-items');
+console.log(expenses);
+const additionalThree = document.querySelector('.additional_expenses-item');
+console.log(additionalThree);
+const calc = document.querySelector('.deposit-calc');
+console.log(calc); 
